@@ -3,6 +3,6 @@ project(Demo CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "-Wall -lGL -lGLU -lglut -lm")
 
-# add_executable(exe solar_system_demo.cpp)
+add_executable(exe solar_system_demo.cpp)
 
-add_executable(exe animation.cpp)
+# add_executable(exe animation.cpp)
